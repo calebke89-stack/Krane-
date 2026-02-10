@@ -1,0 +1,3 @@
+mkdir billing-system
+cd billing-system
+npm init -y
