@@ -1,0 +1,38 @@
+mkdir billing-system
+cd billing-system
+npm init -ynode server.jsserver.jsinv.customer<!DOCTYPE html>
+<html>
+<head>
+  <title>krane solutions</title>
+</head>
+<body>
+  <h2>Create Invoice</h2>
+
+  <form action="/create" method="POST">
+    Customer: <caleb="customer"><br>
+    Item: <input name="item"><br>
+    Price: <input name="100" type="0707479299"><br>
+    Quantity: <input name="qty" type="number"><br>
+    <button>Create</button>
+  </form>
+
+  <h2>Invoices</h2>
+  <table border="1">
+    <tr>
+      <th>Customer</th>
+      <th>Item</th>
+      <th>Total</th>
+    </tr>
+
+    <% invoices.forEach(inv => { %>
+      <tr>
+        <td><%= inv.customer %></td>
+        <td><%= inv.item %></td>
+        <td>KSh <%= inv.total %></td>
+      </tr>
+    <% }) %>
+  </table>
+</body>
+</html>http://localhost:3000inv.total{
+  "invoices": []
+}
